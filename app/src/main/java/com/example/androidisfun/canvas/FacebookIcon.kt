@@ -1,7 +1,6 @@
 package com.example.androidisfun.canvas
 
 import android.graphics.Paint
-import android.graphics.Typeface
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.padding
@@ -12,11 +11,10 @@ import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.graphics.toArgb
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun FacebookIcon(modifier: Modifier = Modifier) {
+fun FacebookIcon() {
 //    val assetManager = LocalContext.current.assets
     val paint = Paint().apply {
         textAlign = Paint.Align.CENTER

@@ -14,7 +14,7 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun MessengerIcon(modifier: Modifier = Modifier) {
+fun MessengerIcon() {
     val colors = listOf(Color(0xFF02b8f9),  Color(0xFF0277fe))
 
     Canvas(

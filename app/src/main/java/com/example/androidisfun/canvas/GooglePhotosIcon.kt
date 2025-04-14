@@ -13,7 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun GooglePhotosIcon(modifier: Modifier = Modifier) {
+fun GooglePhotosIcon() {
     Canvas(
         modifier = Modifier
             .size(100.dp)
