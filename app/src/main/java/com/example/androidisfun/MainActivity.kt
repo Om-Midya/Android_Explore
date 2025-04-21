@@ -19,9 +19,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.androidisfun.canvas.FacebookIcon
 import com.example.androidisfun.canvas.GooglePhotosIcon
+import com.example.androidisfun.canvas.GoogleVoiceSearch
 import com.example.androidisfun.canvas.InstagramIcon
 import com.example.androidisfun.canvas.IosWeatherAppIcon
 import com.example.androidisfun.canvas.MessengerIcon
+import com.example.androidisfun.canvas.Spotify
 import com.example.androidisfun.ui.theme.AndroidIsFunTheme
 
 class MainActivity : ComponentActivity() {
@@ -46,6 +48,12 @@ class MainActivity : ComponentActivity() {
                         }
                         item{
                             IosWeatherAppIcon()
+                        }
+                        item{
+                            GoogleVoiceSearch()
+                        }
+                        item{
+                            Spotify()
                         }
                     }
                 }
