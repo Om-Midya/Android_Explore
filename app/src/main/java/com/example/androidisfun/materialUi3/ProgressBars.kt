@@ -73,7 +73,7 @@ fun DeterminateProgressBars() {
 
         if(isLoading.value) {
             Box(
-                contentAlignment = Alignment.Center, // 🧠 Puts the text in the center
+                contentAlignment = Alignment.Center,
                 modifier = Modifier.size(100.dp)
             ) {
                 CircularProgressIndicator(
